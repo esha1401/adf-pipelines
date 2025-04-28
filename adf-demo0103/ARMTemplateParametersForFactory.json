@@ -11,6 +11,15 @@
 		"BlobStorageforProducts_connectionString": {
 			"value": ""
 		},
+		"AdvWorksDb1_password": {
+			"value": ""
+		},
+		"AdvWorksDb2_password": {
+			"value": ""
+		},
+		"BlobStorageforCustomer_connectionString": {
+			"value": ""
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"value": "eshaa.database.windows.net"
 		},
@@ -18,6 +27,24 @@
 			"value": "workspace"
 		},
 		"AdvWorksDb_properties_typeProperties_userName": {
+			"value": "eshaa"
+		},
+		"AdvWorksDb1_properties_typeProperties_server": {
+			"value": "eshaa.database.windows.net"
+		},
+		"AdvWorksDb1_properties_typeProperties_database": {
+			"value": "workspace"
+		},
+		"AdvWorksDb1_properties_typeProperties_userName": {
+			"value": "eshaa"
+		},
+		"AdvWorksDb2_properties_typeProperties_server": {
+			"value": "eshaa.database.windows.net"
+		},
+		"AdvWorksDb2_properties_typeProperties_database": {
+			"value": "workspace"
+		},
+		"AdvWorksDb2_properties_typeProperties_userName": {
 			"value": "eshaa"
 		}
 	}
