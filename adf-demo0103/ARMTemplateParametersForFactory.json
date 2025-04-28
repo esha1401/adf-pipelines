@@ -4,6 +4,21 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adf-demo0103"
+		},
+		"AdvWorksDb_password": {
+			"value": ""
+		},
+		"BlobStorageforProducts_connectionString": {
+			"value": ""
+		},
+		"AdvWorksDb_properties_typeProperties_server": {
+			"value": "eshaa.database.windows.net"
+		},
+		"AdvWorksDb_properties_typeProperties_database": {
+			"value": "workspace"
+		},
+		"AdvWorksDb_properties_typeProperties_userName": {
+			"value": "eshaa"
 		}
 	}
 }
