@@ -8,9 +8,6 @@
 		"AdvWorksDb_password": {
 			"value": ""
 		},
-		"BlobStorageforProducts_connectionString": {
-			"value": ""
-		},
 		"AdvWorksDb1_password": {
 			"value": ""
 		},
@@ -18,6 +15,9 @@
 			"value": ""
 		},
 		"BlobStorageforCustomer_connectionString": {
+			"value": ""
+		},
+		"BlobStorageforProducts_connectionString": {
 			"value": ""
 		},
 		"AdvWorksDb_properties_typeProperties_server": {

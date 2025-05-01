@@ -11,10 +11,6 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AdvWorksDb'"
 		},
-		"BlobStorageforProducts_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'BlobStorageforProducts'"
-		},
 		"AdvWorksDb1_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AdvWorksDb1'"
@@ -26,6 +22,10 @@
 		"BlobStorageforCustomer_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageforCustomer'"
+		},
+		"BlobStorageforProducts_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'BlobStorageforProducts'"
 		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"type": "string",
@@ -93,9 +93,6 @@
 					"AdvWorksDb_password": {
 						"value": "[parameters('AdvWorksDb_password')]"
 					},
-					"BlobStorageforProducts_connectionString": {
-						"value": "[parameters('BlobStorageforProducts_connectionString')]"
-					},
 					"AdvWorksDb1_password": {
 						"value": "[parameters('AdvWorksDb1_password')]"
 					},
@@ -104,6 +101,9 @@
 					},
 					"BlobStorageforCustomer_connectionString": {
 						"value": "[parameters('BlobStorageforCustomer_connectionString')]"
+					},
+					"BlobStorageforProducts_connectionString": {
+						"value": "[parameters('BlobStorageforProducts_connectionString')]"
 					},
 					"AdvWorksDb_properties_typeProperties_server": {
 						"value": "[parameters('AdvWorksDb_properties_typeProperties_server')]"
