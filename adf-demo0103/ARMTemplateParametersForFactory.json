@@ -23,6 +23,12 @@
 		"BlobStorageforProducts_connectionString": {
 			"value": ""
 		},
+		"TaxiTripDb_password": {
+			"value": ""
+		},
+		"ADLStripData_accountKey": {
+			"value": ""
+		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"value": "https://2sademo0103.dfs.core.windows.net/"
 		},
@@ -52,6 +58,18 @@
 		},
 		"AdvWorksDb2_properties_typeProperties_userName": {
 			"value": "eshaa"
+		},
+		"TaxiTripDb_properties_typeProperties_server": {
+			"value": "eshaa.database.windows.net"
+		},
+		"TaxiTripDb_properties_typeProperties_database": {
+			"value": "taxi-data"
+		},
+		"TaxiTripDb_properties_typeProperties_userName": {
+			"value": "eshaa"
+		},
+		"ADLStripData_properties_typeProperties_url": {
+			"value": "https://2sademo0103.dfs.core.windows.net/"
 		}
 	}
 }
