@@ -83,7 +83,7 @@
 				"     broadcast: 'auto')~> JoinTrip",
 				"JoinTrip aggregate(groupBy(payment_type),",
 				"     Average_fare = avg(toInteger(total_amount)),",
-				"          Total_trip_distance = sum(trip_distance)) ~> AggregateByPayTime",
+				"          Total_trip_distance = sum(toInteger(trip_distance))) ~> AggregateByPayTime",
 				"AggregateByPayTime sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     skipDuplicateMapInputs: true,",
