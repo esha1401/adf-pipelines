@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ADLSGen2'"
 		},
+		"ADLStripData_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ADLStripData'"
+		},
 		"AdvWorksDb_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AdvWorksDb'"
@@ -35,11 +39,15 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'TaxiTripDb'"
 		},
-		"ADLStripData_accountKey": {
+		"TripAggregateBlob_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'ADLStripData'"
+			"metadata": "Secure string for 'connectionString' of 'TripAggregateBlob'"
 		},
 		"ADLSGen2_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://2sademo0103.dfs.core.windows.net/"
+		},
+		"ADLStripData_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://2sademo0103.dfs.core.windows.net/"
 		},
@@ -91,10 +99,6 @@
 			"type": "string",
 			"defaultValue": "eshaa"
 		},
-		"ADLStripData_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://2sademo0103.dfs.core.windows.net/"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -125,6 +129,9 @@
 					"ADLSGen2_accountKey": {
 						"value": "[parameters('ADLSGen2_accountKey')]"
 					},
+					"ADLStripData_accountKey": {
+						"value": "[parameters('ADLStripData_accountKey')]"
+					},
 					"AdvWorksDb_password": {
 						"value": "[parameters('AdvWorksDb_password')]"
 					},
@@ -143,11 +150,14 @@
 					"TaxiTripDb_password": {
 						"value": "[parameters('TaxiTripDb_password')]"
 					},
-					"ADLStripData_accountKey": {
-						"value": "[parameters('ADLStripData_accountKey')]"
+					"TripAggregateBlob_connectionString": {
+						"value": "[parameters('TripAggregateBlob_connectionString')]"
 					},
 					"ADLSGen2_properties_typeProperties_url": {
 						"value": "[parameters('ADLSGen2_properties_typeProperties_url')]"
+					},
+					"ADLStripData_properties_typeProperties_url": {
+						"value": "[parameters('ADLStripData_properties_typeProperties_url')]"
 					},
 					"AdvWorksDb_properties_typeProperties_server": {
 						"value": "[parameters('AdvWorksDb_properties_typeProperties_server')]"
@@ -184,9 +194,6 @@
 					},
 					"TaxiTripDb_properties_typeProperties_userName": {
 						"value": "[parameters('TaxiTripDb_properties_typeProperties_userName')]"
-					},
-					"ADLStripData_properties_typeProperties_url": {
-						"value": "[parameters('ADLStripData_properties_typeProperties_url')]"
 					}
 				}
 			},

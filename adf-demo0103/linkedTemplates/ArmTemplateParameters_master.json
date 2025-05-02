@@ -8,6 +8,9 @@
 		"ADLSGen2_accountKey": {
 			"value": ""
 		},
+		"ADLStripData_accountKey": {
+			"value": ""
+		},
 		"AdvWorksDb_password": {
 			"value": ""
 		},
@@ -26,10 +29,13 @@
 		"TaxiTripDb_password": {
 			"value": ""
 		},
-		"ADLStripData_accountKey": {
+		"TripAggregateBlob_connectionString": {
 			"value": ""
 		},
 		"ADLSGen2_properties_typeProperties_url": {
+			"value": "https://2sademo0103.dfs.core.windows.net/"
+		},
+		"ADLStripData_properties_typeProperties_url": {
 			"value": "https://2sademo0103.dfs.core.windows.net/"
 		},
 		"AdvWorksDb_properties_typeProperties_server": {
@@ -67,9 +73,6 @@
 		},
 		"TaxiTripDb_properties_typeProperties_userName": {
 			"value": "eshaa"
-		},
-		"ADLStripData_properties_typeProperties_url": {
-			"value": "https://2sademo0103.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
