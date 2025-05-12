@@ -32,6 +32,9 @@
 		"TripAggregateBlob_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"value": "https://2sademo0103.dfs.core.windows.net/"
 		},
